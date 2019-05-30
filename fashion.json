@@ -1,0 +1,98 @@
+{
+  "design": [
+    {
+      "id": 1,
+      "designname": "ankara gown",
+      "colour": "orange",
+      "size": "s",
+      "cost": 3200,
+      "designer-id": 7,
+      "fabric": "ankara"
+    },
+    {
+      "id": 2,
+      "designname": "palazzo jumpsuit",
+      "colour": "blue",
+      "size": "s",
+      "cost": 10000,
+      "designer-id": 2,
+      "fabric": "denim"
+    },
+    {
+      "id": 3,
+      "designname": "skirt suit",
+      "colour": "black",
+      "size": "l",
+      "cost": 12000,
+      "designer-id": 1,
+      "fabric": "cotton"
+    },
+    {
+      "id": 4,
+      "designname": "3 piece saree",
+      "colour": "red",
+      "size": "m",
+      "cost": 15000,
+      "designer-id": 3,
+      "fabric": "silk"
+    },
+    {
+      "id": 5,
+      "designname": "evening black dress",
+      "colour": "black",
+      "size": "s",
+      "cost": 11000,
+      "designer-id": 2,
+      "fabric": "stretch cotton"
+    },
+    {
+      "id": 6,
+      "designname": "joggers",
+      "colour": "gray",
+      "size": "xl",
+      "cost": 7000,
+      "designer-id": 1,
+      "fabric": "thick cotton"
+    },
+    {
+      "designname": "ijkgh",
+      "fabric": "89yhij",
+      "color": "lkj",
+      "size": "mn",
+      "cost": "kojnb",
+      "imageurl": "kjhb",
+      "id": 7
+    }
+  ],
+  "designers": [
+    {
+      "id": 1,
+      "fullname": "prada philippe",
+      "brandname": "prada",
+      "email": "info@prada.com",
+      "phone": "08077765343",
+      "address": "portharcourt street"
+    },
+    {
+      "id": 2,
+      "fullname": "ballad peters",
+      "brandname": "balenciaga",
+      "email": "info@balen.com",
+      "phone": "08033344441",
+      "address": "baltimore england"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "password1",
+      "admin": "admin1"
+    },
+    {
+      "id": 2,
+      "username": "balenciaga",
+      "password": "balence"
+    }
+  ]
+}

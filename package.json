@@ -1,0 +1,26 @@
+{
+  "name": "fashion-management-system",
+  "version": "1.0.0",
+  "description": "Decagon Project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oceenachi/fashion-management-system.git"
+  },
+  "keywords": [
+    "fashion",
+    "system"
+  ],
+  "author": "ify",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oceenachi/fashion-management-system/issues"
+  },
+  "homepage": "https://github.com/oceenachi/fashion-management-system#readme",
+  "dependencies": {
+    "json-server": "^0.15.0"
+  }
+}
