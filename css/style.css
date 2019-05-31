@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:brown;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 50px;
+    padding: 0;
+    overflow: hidden;
+    background-color:burlywood;
+    margin:0;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color:brown;
+  }
+  body{
+    background-image: url("../fashionImages/mannequins2.jpg");
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    padding: 0 20px;
+    color:burlywood;
+    text-align: center;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 15px;
+    background-color: peachpuff;
+    padding: 10px;
+    margin-top: 350px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(185, 63, 63, 0.8);
+    padding: 20px;
+    margin-bottom: 2pt;
+    font-size: 20px;
+    text-align: left;
+  }

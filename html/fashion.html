@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="../script/form.js"></script>
+        <title>fashion management system</title>
+        <script src="../script/jquery-3.4.1.min.js"></script>
+<style>
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="login.html">sign up</a></li>
+  <li><a href="newdesigner.html">register</a></li>
+  <li><a href="newdesign.html">add new designs</a></li>
+  <li><a href="newdesign.html">update design</a></li>
+  <li><a href="alldesigns.html">See our designs</a></li>
+   <li><input id="searchinput" type="search" placeholder="type image id" ><button id ="search">search</button></li>
+</ul>
+<h1 class="heading"> BodyCon Collectionz <h1>
+            
+    </header>
+    <h2>trending collections</h2>
+    <div class="grid-container">
+            <div class="grid-item"><p>coco chanel</p>
+            <p>beautifully hand crafted white wedding gown for slim ladies</p></div>
+            <div class="grid-item"><p>vogue africana</p>
+                classis ankara stone crafted gowns from africa</div>
+            <div class="grid-item"><p>indiana</p>
+                who doesn't love the elegant indian sarees. stylist indiana presents wonderful three piece saree0
+            </div>           
+    </div>
+
+<script> 
+$("#search").click(function(){
+    var searchindex = $("#searchinput").val();
+    console.log(searchindex)
+});
+</script>
+   
+</body>
+</html>

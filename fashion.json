@@ -1,0 +1,125 @@
+{
+  "design": [
+    {
+      "id": 1,
+      "designname": "ankara gown",
+      "colour": "orange",
+      "size": "s",
+      "cost": 3200,
+      "designername": "vogue africana",
+      "fabric": "ankara"
+    },
+    {
+      "id": 3,
+      "designname": "skirt suit",
+      "colour": "black",
+      "size": "l",
+      "cost": 12000,
+      "designername": "coco chanel",
+      "fabric": "cotton"
+    },
+    {
+      "designname": "jumpsuit",
+      "fabric": "stretchy",
+      "color": "red",
+      "size": "big",
+      "cost": "5500",
+      "id": 6
+    },
+    {
+      "designname": "jumpsuit",
+      "fabric": "stretchy",
+      "color": "red",
+      "size": "big",
+      "cost": "5500",
+      "id": 7
+    },
+    {
+      "designname": "dress",
+      "fabric": "cotton",
+      "color": "any",
+      "size": "slim",
+      "cost": "5000",
+      "id": 8
+    },
+    {
+      "designname": "dress",
+      "fabric": "cotton",
+      "color": "any",
+      "size": "slim",
+      "cost": "5000",
+      "id": 9
+    }
+  ],
+  "designers": [
+    {
+      "id": 1,
+      "fullname": "prada philippe",
+      "brandname": "prada",
+      "email": "info@prada.com",
+      "phone": "08077765343",
+      "address": "portharcourt street"
+    },
+    {
+      "id": 2,
+      "fullname": "ballad peters",
+      "brandname": "balenciaga",
+      "email": "info@balen.com",
+      "phone": "08033344441",
+      "address": "baltimore england"
+    },
+    {
+      "fullname": "oihikl",
+      "brandname": "iuugfty",
+      "phone": "5tghoiu",
+      "email": "rfghjnb@trfgh.com",
+      "address": "09utdtf",
+      "id": 3
+    },
+    {
+      "fullname": "oihikl",
+      "brandname": "iuugfty",
+      "phone": "5tghoiu",
+      "email": "rfghjnb@trfgh.com",
+      "address": "09utdtf",
+      "id": 4
+    },
+    {
+      "fullname": "khb",
+      "brandname": "liuyghn",
+      "phone": "lkhjg",
+      "email": "lkjh@gmail.com",
+      "address": "lkjhg",
+      "id": 5
+    },
+    {
+      "fullname": "oiugf",
+      "brandname": "hjhj",
+      "phone": "ougyfghk",
+      "email": "phillipfrancisca@gmail.com",
+      "address": "uyfgdcv",
+      "id": 6
+    },
+    {
+      "fullname": "oiugf",
+      "brandname": "hjhj",
+      "phone": "ougyfghk",
+      "email": "phillipfrancisca@gmail.com",
+      "address": "uyfgdcv",
+      "id": 7
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "password1",
+      "admin": "admin1"
+    },
+    {
+      "id": 2,
+      "username": "balenciaga",
+      "password": "balence"
+    }
+  ]
+}
