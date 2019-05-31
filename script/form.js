@@ -91,11 +91,38 @@ function AllDesigns(designs){
 function deleteDesign(designId){
     $.ajax({  
         method: "DELETE",
-        url: "http://localhost:3000/design/"+designId,
+        url: "http://localhost:3000/design/"+ designId,
         dataType: "Json",
         success: function(response){
             alert("Deleted");
             window.location.reload();
         }
     });
+
+
+
+    function updateDesign(designId){
+        $.ajax({
+            method: "PUT",
+            url: "http://localhost:3000/design/",
+            dataType: "json",
+            succes: function()
+        });
+
+ $("#search").click(function(){
+    var searchindex = $("#searchinput").val();
+    console.log(searchindex)
+});
+function searchDesign(designId){
+    $.ajax({
+        method: "GET/designId",
+        url: "http://localhost:3000/design/" + designId,
+        dataType: "json",
+        success: function(found){
+            alert("image found");
+            window.location.href
+            window.location.reload();
+        }
+    })
+}
 }

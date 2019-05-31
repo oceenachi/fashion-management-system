@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="../css/style.css">
         <script src="../script/form.js"></script>
         <title>fashion management system</title>
+        <script src="../script/jquery-3.4.1.min.js"></script>
 <style>
 
 </style>
@@ -17,7 +18,7 @@
   <li><a href="newdesign.html">add new designs</a></li>
   <li><a href="newdesign.html">update design</a></li>
   <li><a href="alldesigns.html">See our designs</a></li>
-   <li><input id="searchinput" type="search" placeholder="Search"></li>
+   <li><input id="searchinput" type="search" placeholder="type image id" ><button id ="search">search</button></li>
 </ul>
 <h1 class="heading"> BodyCon Collectionz <h1>
             
@@ -33,7 +34,12 @@
             </div>           
     </div>
 
-
+<script> 
+$("#search").click(function(){
+    var searchindex = $("#searchinput").val();
+    console.log(searchindex)
+});
+</script>
    
 </body>
 </html>
