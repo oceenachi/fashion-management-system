@@ -2,54 +2,107 @@
 <html>
 <head>
         <title>fashion management system</title>
-<style>
-    *{
-    margin: 0;
-    padding: 0;
-}
-#navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:brown;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  ul {
-    list-style-type: none;
-    padding-left: 50px;
-    padding: 0;
-    overflow: hidden;
-    background-color:burlywood;
-    margin:0;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color:brown;
-  }
-</style>
-
-<ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="">sign up</a></li>
-  <li><a href="">register</a></li>
-  <li><a href="">add new designs</a></li>
-  <li><a href="">See our designs</a></li>
-   <li><input id="searchinput" type="search" placeholder="Search"></li>
-</ul>
-<h1 class="heading"> BodyCon Collectionz <h1>
-   
+   <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" type="text/css">
+   <link rel="stylesheet" href="../bootstrap/css/bootstrap_limitless.min.css" type="text/css">
+   <link rel="stylesheet" href="../bootstrap/css/layout.min.css" type="text/css">
+   <link rel="stylesheet" href="../bootstrap/css/components.min.css" type="text/css">
+   <link rel="stylesheet" href="../bootstrap/css/colors.min.css" type="text/css">
 </head>
 <body>
+   <div class="container=fluid">
+        <!--Navbar-->
+        <div class="navbar navbar-expand-md navbar-dark primary-color fixed=top">
+
+                <!-- Navbar brand -->
+                <h4 class=" text-white">Body Con</h4>
+            
+                <!-- Collapse button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+                aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse" id="basicExampleNav">
+            
+                <!-- Links -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link text-white" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Pricing</a>
+                    </li>
+            
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                    </li>
+            
+                </ul>
+                <!-- Links -->
+            
+                <form class="form-inline">
+                    <div class="md-form my-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    </div>
+                </form>
+                </div>
+                <!-- Collapsible content -->
+            
+            </div>
+            <!--/.Navbar-->
+
+            <!-- Card -->
+    <div class="card hide m-2 child" style="max-width: 30%">
+        <!-- Card image -->
+        <div class="view overlay">
+          <img class="card-img-top design-img" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="Card image cap">
+          <a href="#!">
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+      
+        <!-- Card content -->
+        <div class="card-body">
+      
+          <!-- Title -->
+          <div class="d-flex justify-contents-between">
+                <h5 class="card-title"><span class="design-name">title</span> <span class="design-size text-danger">S</span> </h5>
+                <h5 class="designer-cost ml-auto text-primary">N2500</h5>
+          </div>
+          
+          <!-- Text -->
+          <h6 class="card-text designer-name m-2">Versace.</h6>
+          <!-- Button -->
+          <a href="#" class="btn btn-primary mt-2 view">View</a>
+          <a href="#" class="btn btn-danger mt-2 delete">Delete</a>
+      
+        </div>
+      
+      </div>
+      <!-- Card -->
+            <div class="content-wrapper">
+
+                <div class="d-flex p-2 flex-wrap justify-content-start parent">
+                    
+                </div>
+            </div>
+   </div>
+   
+   <script src="../bootstrap/js/jquery.min.js"></script>
+   <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+   <script src="../script/form.js"></script>
+</body>
+</html>

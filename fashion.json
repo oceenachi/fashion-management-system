@@ -6,7 +6,7 @@
       "colour": "orange",
       "size": "s",
       "cost": 3200,
-      "designer-id": 7,
+      "designername": "vogue africana",
       "fabric": "ankara"
     },
     {
@@ -15,7 +15,7 @@
       "colour": "blue",
       "size": "s",
       "cost": 10000,
-      "designer-id": 2,
+      "designername": "balenciaga",
       "fabric": "denim"
     },
     {
@@ -24,7 +24,7 @@
       "colour": "black",
       "size": "l",
       "cost": 12000,
-      "designer-id": 1,
+      "designername": "coco chanel",
       "fabric": "cotton"
     },
     {
@@ -33,35 +33,8 @@
       "colour": "red",
       "size": "m",
       "cost": 15000,
-      "designer-id": 3,
+      "designername": "indiana",
       "fabric": "silk"
-    },
-    {
-      "id": 5,
-      "designname": "evening black dress",
-      "colour": "black",
-      "size": "s",
-      "cost": 11000,
-      "designer-id": 2,
-      "fabric": "stretch cotton"
-    },
-    {
-      "id": 6,
-      "designname": "joggers",
-      "colour": "gray",
-      "size": "xl",
-      "cost": 7000,
-      "designer-id": 1,
-      "fabric": "thick cotton"
-    },
-    {
-      "designname": "ijkgh",
-      "fabric": "89yhij",
-      "color": "lkj",
-      "size": "mn",
-      "cost": "kojnb",
-      "imageurl": "kjhb",
-      "id": 7
     }
   ],
   "designers": [
@@ -80,6 +53,46 @@
       "email": "info@balen.com",
       "phone": "08033344441",
       "address": "baltimore england"
+    },
+    {
+      "fullname": "oihikl",
+      "brandname": "iuugfty",
+      "phone": "5tghoiu",
+      "email": "rfghjnb@trfgh.com",
+      "address": "09utdtf",
+      "id": 3
+    },
+    {
+      "fullname": "oihikl",
+      "brandname": "iuugfty",
+      "phone": "5tghoiu",
+      "email": "rfghjnb@trfgh.com",
+      "address": "09utdtf",
+      "id": 4
+    },
+    {
+      "fullname": "khb",
+      "brandname": "liuyghn",
+      "phone": "lkhjg",
+      "email": "lkjh@gmail.com",
+      "address": "lkjhg",
+      "id": 5
+    },
+    {
+      "fullname": "oiugf",
+      "brandname": "hjhj",
+      "phone": "ougyfghk",
+      "email": "phillipfrancisca@gmail.com",
+      "address": "uyfgdcv",
+      "id": 6
+    },
+    {
+      "fullname": "oiugf",
+      "brandname": "hjhj",
+      "phone": "ougyfghk",
+      "email": "phillipfrancisca@gmail.com",
+      "address": "uyfgdcv",
+      "id": 7
     }
   ],
   "users": [

@@ -1,4 +1,3 @@
-import { Http2SecureServer } from "http2";
 
 //create event liatener
 // document.getElementById("login").addEventListener("click", loadText);
@@ -12,6 +11,8 @@ import { Http2SecureServer } from "http2";
 
 
 $(document).ready(function () {
+    getdesigns();
+        
 
     // $.post(url, data, call func)
     $("#submit").click(function (e) {
@@ -43,7 +44,7 @@ $(document).ready(function () {
             console.log(designers);
             const url ="http://localhost:3000/designers"
             $.post(url, designers).done(function(peacock){
-                console.log(peacock);
+               window.location.href="newdesign.html";
             })            
         })
         $("#users").click(function(e){
@@ -55,31 +56,49 @@ $(document).ready(function () {
         console.log(users);
         const url= "http://localhost:3000/users"
         $.post(url, users).done(function(big){
-            console.log(big)
+            window.location.href="newdesign.html"
         })
         })
 
     });
-
-
 
 function getdesigns(){
     //like creating an object
     $.ajax({
         method: "GET",
         url: "http://localhost:3000/design",
-        dataType: "Json"
-    })
-    .done(function(data){
-        console.log(data);
-        for(i in data){
-            $("RESULT").append()
-
- }
-
-        $map(data, function(post, i){
-            $("#result").append("<h3>" + post.title + "</h3><p>" + post.body  + "</p>");
-        });
+        dataType: "Json",
+        success: function(response){
+            showAllDesigns(response);
+        }
     });
 }
+
+function AllDesigns(designs){
+    var parent = $(".parent");
+    var child = $(".child");
+    designs.forEach((design) => {
+        var newDesign = child.clone();
+        newDesign.removeClass("hide");
+        newDesign.removeClass("child");
+        var id = design["id"];
+        var imgUrl = "../fashionImages/design"+id+".jpg";
+        newDesign.find(".design-img").attr("src", imgUrl);
+        newDesign.find(".design-name").text(design["designname"]);
+        newDesign.find(".design-size").text(design["size"]);
+        newDesign.find(".designer-cos").text(design["cost"]);
+        newDesign.find(".designer-name").text(design["designer-name"]);
+        var viewButton = newDesign.find(".view");
+        var deleteButton = newDesign.find(".delete");
+        viewButton.click(function(){
+
+        });
+        deleteButton.click(function(){
+
+        });
+        newDesign.appendTo(parent).show();
+    })
+}
+
+
         
