@@ -1,15 +1,3 @@
-
-//create event liatener
-// document.getElementById("login").addEventListener("click", loadText);
-//   function loadText(){
-//       let loginData={
-//           username:getElementById("username").val(),
-//           password:getElementById("password").val()
-//       };
-//       alert(data);
-//   }
-
-
 $(document).ready(function () {
     getdesigns();
         
@@ -69,7 +57,7 @@ function getdesigns(){
         url: "http://localhost:3000/design",
         dataType: "Json",
         success: function(response){
-            showAllDesigns(response);
+            AllDesigns(response);
         }
     });
 }
@@ -94,11 +82,20 @@ function AllDesigns(designs){
 
         });
         deleteButton.click(function(){
-
+            deleteDesign(id);
         });
         newDesign.appendTo(parent).show();
     })
 }
 
-
-        
+function deleteDesign(designId){
+    $.ajax({  
+        method: "DELETE",
+        url: "http://localhost:3000/design/"+designId,
+        dataType: "Json",
+        success: function(response){
+            alert("Deleted");
+            window.location.reload();
+        }
+    });
+}

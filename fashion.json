@@ -10,15 +10,6 @@
       "fabric": "ankara"
     },
     {
-      "id": 2,
-      "designname": "palazzo jumpsuit",
-      "colour": "blue",
-      "size": "s",
-      "cost": 10000,
-      "designername": "balenciaga",
-      "fabric": "denim"
-    },
-    {
       "id": 3,
       "designname": "skirt suit",
       "colour": "black",
@@ -28,13 +19,36 @@
       "fabric": "cotton"
     },
     {
-      "id": 4,
-      "designname": "3 piece saree",
-      "colour": "red",
-      "size": "m",
-      "cost": 15000,
-      "designername": "indiana",
-      "fabric": "silk"
+      "designname": "jumpsuit",
+      "fabric": "stretchy",
+      "color": "red",
+      "size": "big",
+      "cost": "5500",
+      "id": 6
+    },
+    {
+      "designname": "jumpsuit",
+      "fabric": "stretchy",
+      "color": "red",
+      "size": "big",
+      "cost": "5500",
+      "id": 7
+    },
+    {
+      "designname": "dress",
+      "fabric": "cotton",
+      "color": "any",
+      "size": "slim",
+      "cost": "5000",
+      "id": 8
+    },
+    {
+      "designname": "dress",
+      "fabric": "cotton",
+      "color": "any",
+      "size": "slim",
+      "cost": "5000",
+      "id": 9
     }
   ],
   "designers": [
